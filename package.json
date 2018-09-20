@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/gigihiski/react-webpack-babel/issues"
   },
-  "homepage": "https://github.com/gigihiski/react-webpack-babel#readme"
+  "homepage": "https://github.com/gigihiski/react-webpack-babel#readme",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
 }
