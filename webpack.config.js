@@ -1,3 +1,4 @@
+const HTMLWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
 	module: {
 		rules: [{
@@ -13,5 +14,11 @@ module.exports = {
 				loader: "html-loader"
 			}]
 		}]
-	}
+	},
+	plugins: [
+		new HTMLWebpackPlugin({
+			template: "./src/index.html",
+			filename: "./index.html"
+		})
+	]
 }
