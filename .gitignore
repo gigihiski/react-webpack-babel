@@ -1,2 +1,5 @@
 # Node Modules Depedencies
 /node_modules
+
+# Dist Folder
+/dist
